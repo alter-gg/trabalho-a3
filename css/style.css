@@ -1,5 +1,5 @@
 :root{
-    --pink: #e84393;
+    --blue: #3BB4D7;
 }
 
 *{
@@ -33,7 +33,7 @@ section{
 }
 
 .heading span{
-    color: var(--pink);
+    color: var(--blue);
 }
 
 .btn {
@@ -48,7 +48,7 @@ section{
 }
 
 .btn:hover{
-    background: var(--pink);
+    background: var(--blue);
 }
 
 header{
@@ -70,7 +70,7 @@ header .logo{
 }
 
 header .logo span{
-    color: var(--pink);
+    color: var(--blue);
 }
 
 header .navbar a{
@@ -80,7 +80,7 @@ header .navbar a{
 }
 
 header .navbar a:hover{
-    color: var(--pink)
+    color: var(--blue)
 }
 
 header .icons a{ /* Isso daqui não está aparecendo*/
@@ -90,7 +90,7 @@ header .icons a{ /* Isso daqui não está aparecendo*/
 }
 
 header .icons a:hover{ /* Isso daqui não está aparecendo*/
-    color:var(--pink)
+    color:var(--blue)
 }
 
 header #toggler{
@@ -111,7 +111,7 @@ header .fa-bars{ /* Isso daqui não está aparecendo*/
     display: flex;
     align-items: center;
     min-height: 100vh;
-    background: url(./images/home-bg.jpg) no-repeat;
+    background: url(../images/home-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -127,13 +127,13 @@ header .fa-bars{ /* Isso daqui não está aparecendo*/
 
 .home .content span{
     font-size: 3.5rem;
-    color:var(--pink);
+    color:var(--blue);
     padding: 1rem 0;
     line-height: 1.5;
 }
 
 .home .content p{
-    font-size: 3.5rem;
+    font-size: 1.5rem;
     color:#999;
     padding: 1rem 0;
     line-height: 1.5;
@@ -166,7 +166,7 @@ header .fa-bars{ /* Isso daqui não está aparecendo*/
     position: absolute;
     top:50%; transform: translateY(-50%);
     font-size: 3rem;
-    background: #fff;
+    background: #3BB4D7;
     width:100%;
     padding:1rem 2rem;
     text-align: center;
@@ -243,7 +243,7 @@ header .fa-bars{ /* Isso daqui não está aparecendo*/
     top:1rem; left:1rem;
     padding:.7rem 1rem;
     font-size: 2rem;
-    color: var(--pink);
+    color: var(--blue);
     background-color: rgba(255, 51, 153, .05);
     z-index: 1;
     border-radius: .5rem;
@@ -279,7 +279,7 @@ header .fa-bars{ /* Isso daqui não está aparecendo*/
     line-height: 5rem;
     font-size: 2rem;
     width: 50%;
-    background: var(--pink);
+    background: var(--blue);
     color: #fff;
 }
 
@@ -305,7 +305,7 @@ header .fa-bars{ /* Isso daqui não está aparecendo*/
 
 .products .box-container .box .content .price{
     font-size: 2.5rem;
-    color: var(--pink);
+    color: var(--blue);
     font-weight: bolder;
     padding-top: 1rem;
 }
@@ -340,7 +340,7 @@ header .fa-bars{ /* Isso daqui não está aparecendo*/
 }
 
 .review .box-container .box .stars i{
-    color:var(--pink);
+    color:var(--blue);
     font-size: 2rem;
 }
 
@@ -394,12 +394,12 @@ header .fa-bars{ /* Isso daqui não está aparecendo*/
 .footer .box-container .box a{
     display: block;
     color: #666;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     padding:1rem 0;
 }
 
 .footer .box-container .box a:hover{
-    color:var(--pink);
+    color:var(--blue);
     text-decoration: underline;
 }
 
